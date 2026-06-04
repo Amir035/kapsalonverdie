@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsalon Verdie | Afspraak Maken</title>
+    <meta name="description" content="Maak eenvoudig online een afspraak bij Kapsalon Verdie in Tilburg via Fresha. Kies je dienst, datum en tijd.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✂</text></svg>">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kapsalonverdie.nl/boeken.html">
+    <meta property="og:title" content="Kapsalon Verdie | Afspraak Maken">
+    <meta property="og:description" content="Boek je afspraak online bij Kapsalon Verdie in Tilburg. Kies je dienst, datum en tijdstip — klaar in minder dan een minuut.">
+    <meta property="og:image" content="https://www.kapsalonverdie.nl/og-image.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo logo--img">
+            <img src="Image/Logo.png" alt="Kapsalon Verdie logo" class="logo-img">
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="diensten.html">Diensten</a></li>
+            <li><a href="overons.html">Over Ons</a></li>
+            <!-- nav-cta en active apart gehouden om styling-conflict te vermijden -->
+            <li><a href="boeken.html" class="nav-cta nav-cta--active">Boek Nu</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+</header>
+
+<!-- PAGE HERO -->
+<div class="page-hero" style="background-image: url('Image/Banner.png'); background-size: cover; background-position: center top;">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-inner">
+        <span class="section-label">Online Boeken</span>
+        <h1>Afspraak Maken</h1>
+        <p>Kies je dienst, selecteer een datum en bevestig — klaar in minder dan een minuut.</p>
+        <div class="hero-trust-badges">
+            <div class="hero-trust-badge">
+                <img src="https://images.unsplash.com/photo-1593702288056-7cc3b8c34e3f?w=56&h=56&fit=crop&crop=face" alt="Afro-haar Specialist" class="badge-img">
+                <span>Afro-haar Specialist</span>
+            </div>
+            <div class="hero-trust-badge">
+                <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=56&h=56&fit=crop&crop=face" alt="Kindvriendelijk" class="badge-img">
+                <span>Kindvriendelijk</span>
+            </div>
+            <div class="hero-trust-badge">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=56&h=56&fit=crop" alt="Koffie" class="badge-img">
+                <span>Gratis Koffie &amp; Thee</span>
+            </div>
+            <div class="hero-trust-badge">
+                <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=56&h=56&fit=crop" alt="Google Score" class="badge-img">
+                <span>4.9 / 5 Google Score ★</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BOOKING LAYOUT -->
+<section class="section">
+    <div class="container">
+        <div class="booking-layout">
+
+            <!-- FRESHA BOOKING WIDGET -->
+            <div class="fresha-widget-wrap" id="freshaWidgetWrap">
+                <div class="fresha-placeholder">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Online Afspraak Maken</h3>
+                    <p>Klik op de knop hieronder om direct je afspraak in te plannen via ons boekingssysteem. Kies je dienst, datum en tijdstip — klaar in minder dan een minuut.</p>
+                    <a href="https://www.fresha.com/book-now/ethiodirect-o6bt0vfv/all-offer?share=true&pId=3001936" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:1.05rem;padding:0.9rem 2.2rem;">
+                        <i class="fas fa-calendar-check"></i> Afspraak Maken
+                    </a>
+                    <p style="margin-top:1.5rem;font-size:0.82rem;color:var(--muted);">Je wordt doorgestuurd naar ons beveiligde boekingssysteem op Fresha.com.</p>
+                </div>
+            </div>
+
+            <!-- SIDEBAR -->
+            <aside class="booking-sidebar">
+
+                <div class="info-card">
+                    <h4><i class="fas fa-map-marker-alt" style="margin-right:.4rem;"></i> Locatie</h4>
+                    <div class="info-row">
+                        <i class="fas fa-store"></i>
+                        <p><strong>Kapsalon Verdie</strong><br>Verdiplein 101<br>5049 NR Tilburg</p>
+                    </div>
+                    <div style="margin-top:1rem;">
+                        <a href="https://maps.google.com/?q=Verdiplein+101+5049+NR+Tilburg" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="width:100%;justify-content:center;">
+                            <i class="fas fa-directions"></i> Routebeschrijving
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h4><i class="fas fa-clock" style="margin-right:.4rem;"></i> Openingstijden</h4>
+                    <div class="hours-row"><span>Maandag</span><span>09:00 – 18:00</span></div>
+                    <div class="hours-row"><span>Dinsdag</span><span>09:00 – 18:00</span></div>
+                    <div class="hours-row"><span>Woensdag</span><span>09:00 – 18:00</span></div>
+                    <div class="hours-row"><span>Donderdag</span><span>09:00 – 18:00</span></div>
+                    <div class="hours-row"><span>Vrijdag</span><span>09:00 – 18:00</span></div>
+                    <div class="hours-row"><span>Zaterdag</span><span>09:00 – 17:00</span></div>
+                    <div class="hours-row closed"><span>Zondag</span><span>Gesloten</span></div>
+                </div>
+
+                <div class="info-card">
+                    <h4><i class="fas fa-phone" style="margin-right:.4rem;"></i> Direct Contact</h4>
+                    <div class="direct-contact">
+                        <a href="https://wa.me/31613000000?text=Hallo%20Kapsalon%20Verdie%2C%20ik%20wil%20graag%20een%20afspraak%20maken." target="_blank" rel="noopener" class="contact-wa">
+                            <i class="fab fa-whatsapp"></i> WhatsApp ons
+                        </a>
+                        <a href="tel:+31135907431" class="contact-tel">
+                            <i class="fas fa-phone"></i> 013 590 7431
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card" style="background:rgba(201,168,76,0.06);border-color:rgba(201,168,76,0.3);">
+                    <h4><i class="fas fa-star" style="margin-right:.4rem;"></i> Klantbeoordelingen</h4>
+                    <div style="text-align:center;padding:0.5rem 0;">
+                        <div style="font-size:1.8rem;font-family:var(--font-display);font-weight:900;color:var(--accent);">4.9 / 5</div>
+                        <div style="color:var(--accent);font-size:1.1rem;letter-spacing:3px;margin:0.3rem 0;">★★★★★</div>
+                        <div style="font-size:0.82rem;color:var(--muted);">Gebaseerd op 92 Google reviews</div>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/31613000000?text=Hallo%20Kapsalon%20Verdie%2C%20ik%20wil%20graag%20een%20afspraak%20maken." class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp contact">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="index.html" class="logo logo--img">
+                <img src="Image/Logo.png" alt="Kapsalon Verdie logo" class="logo-img logo-img--footer">
+            </a>
+            <p>Jouw vertrouwde kapper in Tilburg. Specialist in afro-haar, heren, dames en kinderen. Met een 4.9 Google score en een warme ontvangst.</p>
+            <div class="social-row">
+                <a href="https://www.instagram.com/kapsalonverdie" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/kapsalonverdie" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Navigatie</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="overons.html">Over Ons</a></li>
+                <li><a href="boeken.html">Afspraak Maken</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <p><i class="fas fa-map-marker-alt" style="color:var(--accent);margin-right:.4rem;"></i> Verdiplein 101<br>5049 NR Tilburg</p>
+            <p><i class="fas fa-phone" style="color:var(--accent);margin-right:.4rem;"></i> <a href="tel:+31135907431" style="color:inherit;">013 590 7431</a></p>
+        </div>
+        <div class="footer-col">
+            <h4>Openingstijden</h4>
+            <p><strong>Ma – Vr:</strong> 09:00 – 18:00</p>
+            <p><strong>Zaterdag:</strong> 09:00 – 17:00</p>
+            <p><strong>Zondag:</strong> Gesloten</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Kapsalon Verdie · Verdiplein 101, Tilburg · <a href="tel:+31135907431" style="color:inherit;">013 590 7431</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
